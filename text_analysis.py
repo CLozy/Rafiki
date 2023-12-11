@@ -54,3 +54,6 @@ from nltk.stem import WordNetLemmatizer
 wnl = WordNetLemmatizer()
 
 print(wnl.lemmatize("dogs"))
+
+
+#Stopword Analysis  Remove common words that do not contribute significantly to the meaning of the text.A predefined list of stopwords (common words like "the," "and," "is") is used to filter out these words.
